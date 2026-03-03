@@ -1,3 +1,12 @@
+/* Retirei da página do Google Font para usar uma fonte baixada aqui no computador/servidor*/
+@font-face {
+    font-family: "Spacemono"; /* Nome que você vai usar no site */
+    src: url("../fonte/SpaceMono-Regular.ttf") format("truetype"); /* Caminho para o arquivo */
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 html,
 body {
     margin: 0;
@@ -25,3 +34,12 @@ body {
     z-index: -1;
 }
 
+.texto_menu{
+  font-family: "Spacemono", sans-serif;
+  font-size: 80px;
+  background-color: blue;
+  transition: background-color 0.3s; /* Suaviza a mudança */  
+}
+.texto_menu:hover{
+    background-color: chartreuse; /* Cor ao passar o mouse */
+}
