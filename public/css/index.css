@@ -43,7 +43,7 @@ body {
 
 .texto_menu {
     font-family: "Spacemono", sans-serif;
-    font-size: 80px;
+    font-size: 40px;
     color: rgb(107, 107, 110);
     transition: color 0.3s;
     /* Suaviza a mudança */
@@ -69,7 +69,7 @@ body {
 
     /* Opcional: efeito de desfoque (vidro) */
     backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(2px);
 
     display: flex;
     justify-content: center;
