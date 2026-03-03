@@ -1,44 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <link rel="stylesheet" type="text/css" href="css/index.css" media="screen" />
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>.::QuIIm::.</title>
-    </head>
-    <body>
-        <script>
-            window.onload = function () {
-                var particles = Particles.init({
-                    selector: ".background",
-                    color: ['#DA0463', '#404B69', '#DBEDF3'],
-                    connectParticles: true
-                });
-            };
-        </script>
 
-        <div class="fundo" >
-            <canvas class="background" ></canvas>
-        </div>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/index.css" media="screen" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>.::QuIIm::.</title>
+</head>
 
-        <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
-            <a href="#" target="_blank">
-                <!-- <img src="img/opcao_web.png" width="300" alt="Centralizada"> -->
-                 <h2 class="texto_menu"">WEB</h2>
-                 <br>
-                 <br>
+<body>
+    <script>
+        window.onload = function () {
+            var particles = Particles.init({
+                selector: ".background",
+                color: ['#DA0463', '#404B69', '#DBEDF3'],
+                connectParticles: true
+            });
+        };
+    </script>
 
-            </a>
-            <a href="#" target="_blank">
-                <!-- <img src="img/opcao_mobile.png" width="230" alt="Centralizada"> -->
-                <br>
-                <br>
-                <h2 class="texto_menu">Mobile</h2>
-            </a>
-        </div>
+    <div class="fundo">
+        <canvas class="background"></canvas>
+    </div>
 
-        <script src="js/particles.js"></script>
-        <script src="js/index.js"></script>
-    </body>
+    <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+
+    <div class="container-translucido">
+        <h2>Fundo Translúcido</h2>
+        <p>Este texto é totalmente opaco, mas o fundo é transparente.</p>
+    </div>
+      
+    </div>
+
+    
+    
+
+    <script src="js/particles.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
 </html>
