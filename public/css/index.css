@@ -37,9 +37,9 @@ body {
 .texto_menu{
   font-family: "Spacemono", sans-serif;
   font-size: 80px;
-  background-color: blue;
-  transition: background-color 0.3s; /* Suaviza a mudança */  
+  color: blue;
+  transition: color 0.3s; /* Suaviza a mudança */  
 }
 .texto_menu:hover{
-    background-color: chartreuse; /* Cor ao passar o mouse */
+    color: chartreuse; /* Cor ao passar o mouse */
 }
