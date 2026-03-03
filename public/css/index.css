@@ -44,13 +44,13 @@ body {
 .texto_menu {
     font-family: "Spacemono", sans-serif;
     font-size: 80px;
-    color: blue;
+    color: rgb(107, 107, 110);
     transition: color 0.3s;
     /* Suaviza a mudança */
 }
 
 .texto_menu:hover {
-    color: chartreuse;
+    color: rgb(35, 11, 100);
     /* Cor ao passar o mouse */
 }
 
